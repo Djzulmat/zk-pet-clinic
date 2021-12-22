@@ -1,0 +1,24 @@
+package zafar.springframework.zkpetclinic.model;
+
+public class Person {
+	
+	private String firstName;
+	private String lastName;
+	
+	//no-args constructor
+	public Person() {
+		super();
+	}
+	
+	
+	//constructor with args
+	public Person(String firstName, String lastName) {
+		super();
+		this.firstName = firstName;
+		this.lastName = lastName;
+	}
+	
+	
+	
+
+}
